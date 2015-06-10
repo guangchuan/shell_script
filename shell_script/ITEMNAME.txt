@@ -1,0 +1,88 @@
+# last change: 2014.03.13
+# アイテム名取得用ファイル:書式：OID<タブ>アイテム名<タブ>任意コメント 
+.1.3.6.1.2.1.25.2.3.1.5.1	memTotal	メモリ(メモリ全体量)	hrStorageSize.1　hrStorageAllocationUnits.1 = INTEGER: 1024 Bytes　 単位は1024 Bytes
+.1.3.6.1.2.1.25.2.3.1.6.1	memFree	メモリ(空きメモリ量)		hrStorageUsed.1
+.1.3.6.1.2.1.25.3.3.1.2.1	cpuLoad		CPU(MP-CPU使用率)	0-100範囲で表示％
+.1.3.6.1.2.1.25.3.3.1.2.2	cpuDpUsage	CPU(DP-CPU使用率)	0-100範囲で表示％
+.1.3.6.1.2.1.99.1.1.1.4.100006001	tempCpu	温度(Cpu temp sensor)
+.1.3.6.1.2.1.99.1.1.1.4.100006002	tempRearSensor	温度(Rear temp sensor)
+.1.3.6.1.2.1.99.1.1.1.4.100006003	tempBoardSensor	温度(Board temp sensor)
+.1.3.6.1.2.1.99.1.1.1.4.100006004	tempFrontPanelSensor	温度(Front-panel temp sensor)
+.1.3.6.1.2.1.99.1.1.1.4.11	temp10GPhys_U171
+.1.3.6.1.2.1.99.1.1.1.4.12	tempJaguar_U172
+.1.3.6.1.2.1.99.1.1.1.4.13	tempTiger_U173
+.1.3.6.1.2.1.99.1.1.1.4.14	tempDune_U174
+.1.3.6.1.4.1.25461.2.1.2.3.1.0	sessionUsage	セッション使用率(パーセント))　（筐体）
+.1.3.6.1.4.1.25461.2.1.2.3.3.0	activeSession	Active Session　（筐体）
+.1.3.6.1.4.1.25461.2.1.2.3.4.0	tcpSession	TCPセッション数　（筐体）
+.1.3.6.1.4.1.25461.2.1.2.3.5.0	udpSession	UDPセッション数　（筐体）
+.1.3.6.1.4.1.25461.2.1.2.3.6.0	icmpSession	ICMPセッション数　（筐体）
+.1.3.6.1.4.1.263.2.1.500.1.1.1.3	tempSensor	温度
+.1.3.6.1.4.1.263.2.1.500.1.1.1.3.1	nsTemperatureCurrent	温度(nsTemperatureCurrent)
+.1.3.6.1.4.1.3375.2.1.1.2.1.143.0	memTotalPerKb	メモリ(メモリ全体量/Kbyte表示)
+.1.3.6.1.4.1.3375.2.1.1.2.1.144.0	memUsedPerKb	メモリ(メモリ消費量/Kbyte表示)
+.1.3.6.1.4.1.3375.2.1.1.2.1.44.0	memTotalPerByte	メモリ(メモリ全体量/byte表示)
+.1.3.6.1.4.1.3375.2.1.1.2.1.45.0	memUsedPerByte	メモリ(メモリ消費量/byte表示)
+.1.3.6.1.4.1.3375.2.1.1.2.1.8.0	sessionTotal	セッション数(筐体全体)
+.1.3.6.1.4.1.3375.2.1.3.6.2.1.2.0.1	tempCpu	温度(CPU)
+.1.3.6.1.4.1.3375.2.1.3.1.2.1.2.1001	sysCpuTemperature	温度(CPU)
+.1.3.6.1.4.1.3375.2.1.3.1.2.1.2.1	sysCpuTemperature	温度(CPU)
+.1.3.6.1.4.1.3375.2.1.3.2.3.2.1.2.1	tempChassis	温度(シャーシ)
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27	cpuUsage1min	CPU(1分間の使用率)
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27.1.48.1	cpuUsage1min_1
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27.1.48.2	cpuUsage1min_2
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27.1.48.3	cpuUsage1min_3
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27.1.48.4	cpuUsage1min_4
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27.1.49.1	sysMultiHostCpuUsageRatio1m_1
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27.1.49.2	sysMultiHostCpuUsageRatio1m_2
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27.1.49.3	sysMultiHostCpuUsageRatio1m_3
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27.1.49.4	sysMultiHostCpuUsageRatio1m_4
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27.1.49.5	sysMultiHostCpuUsageRatio1m_5
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27.1.49.6	sysMultiHostCpuUsageRatio1m_6
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27.1.49.7	sysMultiHostCpuUsageRatio1m_7
+.1.3.6.1.4.1.3375.2.1.7.5.2.1.27.1.49.8	sysMultiHostCpuUsageRatio1m_8
+.1.3.6.1.4.1.9.9.109.1.1.1.1.12.1	memUsed	メモリ(メモリ使用量)
+.1.3.6.1.4.1.9.9.109.1.1.1.1.13.1	memFree	メモリ(空きメモリ量)
+.1.3.6.1.4.1.9.9.109.1.1.1.1.24.2	espCpuUsage1min	CPU(1分間の使用率)(ESP)
+.1.3.6.1.4.1.9.9.109.1.1.1.1.24.3	rpCpuUsage1min	CPU(1分間の使用率)(RP)
+.1.3.6.1.4.1.9.9.109.1.1.1.1.24.9	espCpuUsage1min		CPU(1分間の使用率)(ESP)
+.1.3.6.1.4.1.9.9.109.1.1.1.1.24.7	rpCpuUsage1min		CPU(1分間の使用率)(RP)
+.1.3.6.1.4.1.9.9.109.1.1.1.1.4.1	cpmCPUTotal1min
+.1.3.6.1.4.1.9.9.109.1.1.1.1.5.1	cpmCPUTotal5min
+.1.3.6.1.4.1.9.9.109.1.1.1.1.7.1	cpuUsage1min	CPU(1分間の使用率)
+.1.3.6.1.4.1.9.9.13.1.3.1.3.1	tempAirInlet	温度(CPU)
+.1.3.6.1.4.1.9.9.13.1.3.1.3.1006	tempEnvMon	温度
+.1.3.6.1.4.1.9.9.13.1.3.1.3.1008	tempEnvMon	温度
+.1.3.6.1.4.1.9.9.13.1.3.1.3.2	tempAirOutlet	温度(Intake Left)
+.1.3.6.1.4.1.9.9.13.1.3.1.3.3	tempIntakeRight	温度(Intake Right)
+.1.3.6.1.4.1.9.9.13.1.3.1.3.4	tempExhaustRight	温度(Exhaust Right)
+.1.3.6.1.4.1.9.9.13.1.3.1.3.5	tempExhaustLeft	温度(Exhaust Left)
+.1.3.6.1.4.1.9.9.13.1.3.1.3.6	tempPS1	温度(Power Supply 1)
+.1.3.6.1.4.1.9.9.13.1.3.1.3.7	tempPS2	温度(Power Supply 2)
+.1.3.6.1.4.1.9.9.48.1.1.1.5.1	MemUsed_Processor	メモリ(メモリ使用量)
+.1.3.6.1.4.1.9.9.48.1.1.1.5.2 	MemUsed_IO
+.1.3.6.1.4.1.9.9.48.1.1.1.5.20 	MemUsed_Drivertext
+.1.3.6.1.4.1.9.9.48.1.1.1.6.1	MemFree_Processor	メモリ(空きメモリ量)
+.1.3.6.1.4.1.9.9.48.1.1.1.6.2	MemFree_IO
+.1.3.6.1.4.1.9.9.48.1.1.1.6.20	MemFree_Drivertext
+.1.3.6.1.4.1.9.9.491.1.1.1.6.0	ActivSession_cufwConnGlobalNumActiv
+.1.3.6.1.4.1.9.9.91.1.1.1.1.4.1015	tempLeft	温度(Left)
+.1.3.6.1.4.1.9.9.91.1.1.1.1.4.1018	tempRight	温度(Right)
+.1.3.6.1.4.1.9.9.91.1.1.1.1.4.21598	tempSensor	温度
+.1.3.6.1.4.1.9.9.91.1.1.1.1.4.21600	entSensorValue	温度
+.1.3.6.1.4.1.9.9.91.1.1.1.1.4.7011	tempCpu	温度(CPU)
+.1.3.6.1.4.1.9.9.91.1.1.1.1.4.7012	tempOutlet	温度(Outlet)
+.1.3.6.1.4.1.9.9.91.1.1.1.1.4.9018	tempInlet	温度(Inlet)
+.1.3.6.1.4.1.9.9.109.1.1.1.1.4.1000	cpmCPUTotal1min	CPU(1分間の使用率)
+.1.3.6.1.2.1.25.3.3.1.2.768	hrProcessorLoad_1		CPU(1分間の使用率 CPU1)
+.1.3.6.1.2.1.25.3.3.1.2.769	hrProcessorLoad_2		CPU(1分間の使用率 CPU2) 
+.1.3.6.1.4.1.2021.4.6.0	memAvailReal		メモリ(空きメモリ量)
+.1.3.6.1.4.1.37538.2.3.1.1.4.1	slTempSensorsValue_Chassis1		温度(Chassis 1)
+.1.3.6.1.4.1.37538.2.3.1.1.4.2	slTempSensorsValue_Chassis2		温度(Chassis 2)
+.1.3.6.1.4.1.37538.2.3.1.1.4.3	slTempSensorsValue_Chassis3		温度(Chassis 3)
+.1.3.6.1.4.1.37538.2.3.1.1.4.4	slTempSensorsValue_Chassis4		温度(Chassis 4)
+.1.3.6.1.4.1.37538.2.3.1.1.4.5	slTempSensorsValue_Chassis5		温度(Chassis 5)
+.1.3.6.1.2.1.99.1.1.1.4.5	temp3830_U85		温度(3830 [U85])
+.1.3.6.1.2.1.99.1.1.1.4.6	tempLION_U86		温度(LION [U86])
+.1.3.6.1.2.1.99.1.1.1.4.7	tempPhy_U87		温度(Phy [U87])
+.1.3.6.1.2.1.99.1.1.1.4.8	tempCPLD_U88		温度(CPLD [U88])
